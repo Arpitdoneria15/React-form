@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  text-align: center;
+}
+
+.main form,
+.main .details {
+  max-width: 600px;
+  border: 1px solid #ddd;
+  margin: 15px auto; /* Center align horizontally */
+  padding: 20px;
+  text-align: left; /* Align text left */
+}
+
+.main .details > div {
+  margin: 15px 0;
+  font-weight: 400;
+}
+
+.main .details > h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: calc(100% - 30px); /* Adjust width */
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h3 {
+  margin: 5px;
+  padding: 15px 0;
+  font-weight: 300;
+}
+
+.errorMsg {
+  margin-top: -10px; /* Adjust margin */
+  font-size: 14px; /* Increase font size */
+  color: #ff6347; /* Change color */
+}
